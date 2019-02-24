@@ -1,6 +1,6 @@
 html {
     font-size: 10px;
-    background-color: white;
+    background-image: url(image/coffeefrank.JPG);
     background-size: cover;
 }
 
@@ -20,7 +20,7 @@ body,html{
 }
 
 .key {
-    border: .1rem solid black;
+    border: .1rem solid rgba(0,0,0,0.1);
     border-radius: .5rem;
     margin: 1rem;
     font-size: 1.75rem;
@@ -28,10 +28,10 @@ body,html{
     transition: all .75s ease;
     width: 10rem;
     text-align: center;
-    color: black;
+    color: white;
     background: rgba(0,0,0,0.1);
     opacity: .55; 
-    text-shadow: 0 0 0.5rem white;
+    text-shadow: 0 0 0.5rem black;
 }
 
 .playing {
@@ -45,6 +45,7 @@ kbd {
     font-size: 4rem;
     font-family: monospace;
     font-weight: 100;
+    text-shadow: none; 
 }
 
 .sound {
